@@ -1,0 +1,43 @@
+.App {
+  /* small bugfix for responsiveness */
+  overflow-x: hidden;
+}
+
+.headContainer {
+  height: 250px;
+  width: 100%;
+  text-align: center;
+  background: rgb(225,226,226);
+  background: linear-gradient(0deg, rgba(225,226,226,1) 0%, rgba(251,129,34,1) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headText {
+  color: #1D2228;
+}
+
+.contentContainer {
+  width: 100%;
+  background: #E1E2E2
+}
+
+.footerContainer {
+  width: 100%;
+  height: 350px;
+  background-color: #1D2228;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerIcon {
+  font-size: 100px !important;
+  color: #ed5118
+}
+
+.footerText {
+  color: white;
+}
